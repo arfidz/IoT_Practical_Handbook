@@ -13,16 +13,16 @@
 //------------
 #define BLYNK_PRINT Serial
 /* Fill in information from Blynk Device Info here */
-#define BLYNK_TEMPLATE_ID "TMPL6b-30xqrI"   // change to your own template ID
-#define BLYNK_TEMPLATE_NAME "Temperature Monitoring"   // change to your own template name
-#define BLYNK_AUTH_TOKEN "0gVYxFAcv-074X82yK9c8x8ZE8gkn_64"  // change to your own Blynk_auth_token
+#define BLYNK_TEMPLATE_ID "blynk_template_id"   // change to your own template ID
+#define BLYNK_TEMPLATE_NAME "blynk_template_name"   // change to your own template name
+#define BLYNK_AUTH_TOKEN "your_blynk_token"  // change to your own Blynk_auth_token
 BlynkTimer timer;
 
 int LED = D4;
 
 //ThingSpeak Setup
-long myChannelNumber = 2079878; // change to your own channel number
-const char myWriteAPIKey[] = "9SGWYN7TZ78N0NZJ";  // change to your own API Write Key
+long myChannelNumber = your_channel_number; // change to your own channel number
+const char myWriteAPIKey[] = "your_write_API_key";  // change to your own API Write Key
 
 //OLED Display Setup
 #define SCREEN_WIDTH 128 // OLED display width, in pixels

@@ -19,8 +19,8 @@
 BlynkTimer timer;
 
 //ThingSpeak Setup
-long myChannelNumber = your_channel_number; // change to your own channel number
-const char myWriteAPIKey[] = "your_write_API_key";  // change to your own API Write Key
+long myChannelNumber = yourChannelID; // change to your own channel number
+const char myWriteAPIKey[] = "yourownAPIwriteKey";  // change to your own API Write Key
 
 //OLED Display Setup
 #define SCREEN_WIDTH 128 // OLED display width, in pixels

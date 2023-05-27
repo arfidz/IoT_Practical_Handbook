@@ -13,13 +13,13 @@
 //------------
 #define BLYNK_PRINT Serial
 /* Fill in information from Blynk Device Info here */
-#define BLYNK_TEMPLATE_ID "blynk_template_id"
-#define BLYNK_TEMPLATE_NAME "blynk_template_name"
-#define BLYNK_AUTH_TOKEN "your_blynk_token"
+#define BLYNK_TEMPLATE_ID "blynk_template_id"   // change to your own template ID
+#define BLYNK_TEMPLATE_NAME "blynk_template_name"   // change to your own template name
+#define BLYNK_AUTH_TOKEN "your_blynk_token"  // change to your own Blynk_auth_token
 BlynkTimer timer;
 
 //ThingSpeak Setup
-long myChannelNumber = thingspeak_id_channel; // change to your own channel number
+long myChannelNumber = your_channel_number; // change to your own channel number
 const char myWriteAPIKey[] = "your_write_API_key";  // change to your own API Write Key
 
 //OLED Display Setup
